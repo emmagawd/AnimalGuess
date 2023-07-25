@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=AnimalGuess
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ The\ main\ method\ prints\ instructions\ and\ repeatedly\ plays\ the\ \n\ animal-guessing\ game.\ As\ the\ game\ is\ played,\ the\ taxonomy\ tree\n\ grows\ by\ learning\ new\ animals.\ The\ <CODE>String</CODE>\ argument\n\ (<CODE>args</CODE>)\ is\ not\ used\ in\ this\ implementation.\n
+comment2.params=
+comment2.target=void\ instruct()
+comment2.text=\n\ Print\ instructions\ for\ the\ animal-guessing\ game.\n
+comment3.params=current
+comment3.target=void\ play(BTNode)
+comment3.text=\n\ Play\ one\ round\ of\ the\ animal\ guessing\ game.\n\ @param\ <CODE>current</CODE>\n\ \ \ a\ reference\ to\ the\ root\ node\ of\ a\ binary\ taxonomy\ tree\ that\ will\ be\n\ \ \ used\ to\ play\ the\ game.\n\ <dt><b>Postcondition\:</b><dd>\n\ \ \ The\ method\ has\ played\ one\ round\ of\ the\ game,\ and\ possibly\n\ \ \ added\ new\ information\ about\ a\ new\ animal.\n\ @exception\ java.lang.OutOfMemoryError\n\ \ \ Indicates\ that\ there\ is\ insufficient\ memory\ to\ add\ new\n\ \ \ information\ to\ the\ tree.\n
+comment4.params=
+comment4.target=BTNode\ beginningTree()
+comment4.text=\n\ Construct\ a\ small\ taxonomy\ tree\ with\ four\ animals.\n\ @param\ -\ none\n\ @return\n\ \ \ a\ reference\ to\ the\ root\ of\ a\ taxonomy\ tree\ with\ the\ animals\:\n\ \ \ kangaroo,\ mouse,\ trout,\ robin.\n\ @exception\ OutOfMemoryError\n\ \ \ Indicates\ that\ there\ is\ insufficient\ memory\ to\ create\ the\ tree.\n
+comment5.params=current
+comment5.target=void\ learn(BTNode)
+comment5.text=\n\ Elicits\ information\ from\ the\ user\ to\ improve\ a\ binary\ taxonomy\ tree.\n\ @param\ <CODE>current</CODE>\n\ \ \ a\ reference\ to\ a\ leaf\ node\ of\ a\ binary\ taxonomy\ tree\n\ <dt><b>Precondition\:</b><dd>\n\ \ \ <CODE>current</CODE>\ is\ a\ reference\ to\ a\ leaf\ in\ a\ binary\n\ \ \ taxonomy\ tree\n\ <dt><b>Postcondition\:</b><dd>\n\ \ \ Information\ has\ been\ elicited\ from\ the\ user,\ and\ the\ tree\ has\n\ \ \ been\ improved.\n\ @exception\ OutOfMemoryError\n\ \ \ Indicates\ that\ there\ is\ insufficient\ memory\ to\ add\ new\n\ \ \ information\ to\ the\ tree.\ \n
+comment6.params=prompt
+comment6.target=boolean\ query(java.lang.String)
+numComments=7
